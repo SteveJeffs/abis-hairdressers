@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Abi's Hairdressers, Wallington</title>
+        <meta name="description" content="Abi's Hairdressers, a local business to Wallington, Sutton and the surrounding areas. Focusing on womens hair of all ages for all occasions">
+        
+        <link href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="styles.css">
+    
+    </head>
+    <body>
+        <header>
+            <nav></nav>
+        
+        </header>
+        <main>
+
+        </main>
+    
+    
+        <footer>
+
+        </footer>
+    </body>
+</html>
