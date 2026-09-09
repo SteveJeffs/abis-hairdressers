@@ -3,19 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Abi's Hairdressers, Wallington</title>
-        <meta name="description" content="Abi's Hairdressers, a local business to Wallington, Sutton and the surrounding areas. Focusing on womens hair of all ages for all occasions">
-        
-        <link href="https://fonts.googleapis.com">
+        <title>Mobile Hairdresser in Wallington & Sutton | Abi's Hairdressers</title>
+        <meta name="description" content="Abi's Hairdressers, a local mobile hairdresser that covers Wallington, Sutton and the surrounding areas. Focusing on women's hair of all ages for all occasions">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     
     </head>
-    <body>
+    <body id="top">
+        <a href="#main" class="dodgelink">Skip to content</a>
         <header>
-            <nav></nav>
+            <nav>
+                <a href="#top">Abi's Hairdressers <span>Mobile Hairdresser</span></a>
+                <ul>
+                    <li><a href="#what">What I do</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#how">How it works</a></li>
+                    <li><a href="#area">Where I cover</a></li>
+                    <li><a href="#gallery">My work</a></li>
+                    <li><a href="#visit">Book a visit</a></li>
+                </ul>
+            </nav>
         
         </header>
-        <main>
+        <main id="main">
+
+            <section id="hero">
+                <h1>Salon hair, in your own home</h1>
+                <p>Qualified mobile hairdressing across Wallington, Sutton and Carshalton. I bring everything with me, you stay where you are, and nobody rushes you out for the next appointment.</p>
+
+                <a class="visit" href="#visit">Book a visit</a>
+                <a class="wa" href="https://wa.me/447000000000">Message on WhatsApp</a>
+
+                <img src="abicut.jpeg" alt="abi cutting a young ladies hair for her birthday">
+            </section>
 
         </main>
     
