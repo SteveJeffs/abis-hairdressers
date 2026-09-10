@@ -42,7 +42,7 @@ h1 {
 
 #hero p {
     color: var(--ink-soft);
-    font-size: clamp(1.05rem 2vw, 1.25rem);
+    font-size: clamp(1.05rem, 2vw, 1.25rem);
     max-width: 44ch;
     margin-top: 1.5rem;
 }
@@ -52,10 +52,11 @@ h1 {
     border: 1.5px solid var(--wine);
     padding: 1rem 2rem;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    text-align: center;
     font-weight: 600;
     margin-top: 2rem;
-    margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .visit {
@@ -67,6 +68,37 @@ h1 {
     color: var(--wine);
 }
 
-#hero img {
+header {
+    position: sticky;
+    top: 0;
+    padding: 1rem 1.5rem;
+    background: var(--bone);
+    z-index: 10;
+}
 
+.ahl {
+    font-family: var(--f-display);
+    font-size: clamp(1.25rem, 4vw, 1.6rem);
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+nav span {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: var(--f-ui);
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    display: block;
+    color: var(--ink-soft);
+    margin-top: 0.35rem;
+}
+
+nav a {
+    color: var(--ink);
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
 }
