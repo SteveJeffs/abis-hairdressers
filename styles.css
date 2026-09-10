@@ -74,6 +74,10 @@ header {
     padding: 1rem 1.5rem;
     background: var(--bone);
     z-index: 10;
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
 }
 
 .ahl {
@@ -101,4 +105,28 @@ nav a {
 
 nav ul {
     list-style: none;
+}
+
+#menuBtn {
+    font-family: var(--f-ui);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--wine);
+    background: none;
+    border: 1.5px solid var(--wine);
+    border-radius: 999px;
+    padding: 0.5rem 1.25rem;
+    cursor: pointer;
+}
+
+#panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(430px, 100%);
+    z-index: 20;
+    padding: 5rem 1.5rem 2rem;
+    background: var(--ink);
+    transform: translateX(100%);
 }
