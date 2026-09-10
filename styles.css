@@ -1,0 +1,29 @@
+:root {
+    --mineral: #E3E7E4;
+    --bone: #F7F6F2;
+    --ink: #14211E;
+    --ink-soft: #4A5652;
+    --wine: #7A2E3E;
+    --wine-deep: #5E1F2D;
+    --f-display: "Newsreader", Georgia, serif;
+    --f-ui: "Karla", system-ui, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--mineral);
+    color: var(--ink);
+    font-family: var(--f-ui);
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
