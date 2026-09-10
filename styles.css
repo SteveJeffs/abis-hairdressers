@@ -29,26 +29,44 @@ img {
 }
 
 h1 {
-    background: var(--bone);
-    padding: 1.5rem;
+    font-family: var(--f-display);
+    font-size: clamp(2.5rem, 8vw, 5rem);
     line-height: 1.03;
     font-weight: 400;
 }
 
-.hero p {
-    padding: 1.5rem;
+#hero {
+    padding: 3rem 1.5rem;
+    background: var(--bone);
+}
+
+#hero p {
     color: var(--ink-soft);
-    font-size: 1.2rem;
+    font-size: clamp(1.05rem 2vw, 1.25rem);
     max-width: 44ch;
+    margin-top: 1.5rem;
 }
 
-.hero a {
+#hero a {
     border-radius: 999px;
-    padding: 1rem;
-    font-family: var(--f-ui);
+    border: 1.5px solid var(--wine);
+    padding: 1rem 2rem;
     text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-right: 0.75rem;
 }
 
-.hero img {
-    
+.visit {
+    background: var(--wine);
+    color: var(--bone);
+}
+
+.wa {
+    color: var(--wine);
+}
+
+#hero img {
+
 }
