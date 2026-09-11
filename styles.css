@@ -101,7 +101,11 @@ header {
 }
 
 nav a {
-    color: var(--ink);
+    display: block;
+    padding: 0.5rem 0;
+    font-family: var(--f-display);
+    font-size: clamp(1.6rem, 7vw, 2.2rem);
+    color: var(--bone);
     text-decoration: none;
 }
 
@@ -135,6 +139,7 @@ nav ul {
 
 #panel.showing {
     transform: translateX(0);
+    transition: transform 0.4s ease;
 }
 
 .dodgelink {
