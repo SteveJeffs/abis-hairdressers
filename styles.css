@@ -158,3 +158,18 @@ nav ul {
 .dodgelink:focus {
     transform: translateY(0);
 }
+
+#closeBtn {
+    position: absolute;
+    top:1.25rem;
+    right: 1.5rem;
+    font-family: var(--f-ui);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--bone);
+    background: none;
+    border: 1px solid rgba(247, 246, 242, 0.4);
+    border-radius: 999px;
+    padding: 0.5rem 1.1rem;
+    cursor: pointer;
+}
