@@ -132,3 +132,24 @@ nav ul {
     background: var(--ink);
     transform: translateX(100%);
 }
+
+#panel.showing {
+    transform: translateX(0);
+}
+
+.dodgelink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    padding: 0.75rem 1.25rem;
+    background: var(--ink);
+    color: var(--bone);
+    text-decoration: none;
+    font-weight: 600;
+    transform: translateY(-150%);
+}
+
+.dodgelink:focus {
+    transform: translateY(0);
+}
