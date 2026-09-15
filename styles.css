@@ -216,14 +216,21 @@ h2 {
     margin-top: 2.5rem;
 }
 
+.service {
+    background: var(--mineral);
+}
+
+.trioblock {
+    background: var(--bone);
+}
+
 .service, .trioblock {
     padding: 1.5rem;
     margin-bottom: 0.75rem;
-    background: var(--mineral);
     border-radius: 60px 12px 60px 12px;
 }
 
-.service:nth-child(even), .trioblock:nth-child(even) {
+.service:nth-child(even) {
     border-radius: 12px 60px 12px 60px;
 }
 
