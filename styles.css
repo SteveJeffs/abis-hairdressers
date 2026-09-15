@@ -176,11 +176,11 @@ nav ul {
     cursor: pointer;
 }
 
-#what {
+#what, #price, #how, #area {
     padding: 4rem 1.5rem;
 }
 
-#what h2 {
+#what h2, #price h2, #how h2, #area h2, {
     font-family: var(--f-display);
     font-size: clamp(1.9rem, 5vw, 3rem);
     font-weight: 400;
@@ -207,14 +207,6 @@ nav ul {
 #pricing {
     padding: 4rem 1.5rem;
     background: var(--bone);
-}
-
-#price h2 {
-    font-family: var(--f-display);
-    font-size: clamp(1.9rem, 5vw, 3rem);
-    font-weight: 400;
-    line-height: 1.1;
-    max-width: 18ch;
 }
 
 .services {
@@ -255,18 +247,6 @@ nav ul {
     color: var(--ink-soft);
 }
 
-#how {
-    padding: 4rem 1.5rem;
-}
-
-#how h2 {
-    font-family: var(--f-display);
-    font-size: clamp(1.9rem, 5vw, 3rem);
-    font-weight: 400;
-    line-height: 1.1;
-    max-width: 18ch;
-}
-
 .process {
     margin-top: 2.5rem;
 }
@@ -295,4 +275,30 @@ nav ul {
 .step p {
     color: var(--ink);
     margin-top: 0.5rem;
+}
+
+#area { 
+    background: var(--bone);
+}
+
+#area p {
+    color: var(--ink-soft);
+    max-width: 60ch;
+    margin-top: 1.25;
+}
+
+.towns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    list-style: none;
+    margin-top: 1.75rem;
+}
+
+.towns li {
+    padding: 0.5rem 1.2rem;
+    background: var(--mineral);
+    border: 1px solid rgba(20, 33, 30, 0.14);
+    border-radius: 999px;
+    font-size: 0.95rem;
 }
