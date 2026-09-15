@@ -180,7 +180,7 @@ nav ul {
     padding: 4rem 1.5rem;
 }
 
-#what h2, #price h2, #how h2, #area h2, {
+#what h2, #price h2, #how h2, #area h2 {
     font-family: var(--f-display);
     font-size: clamp(1.9rem, 5vw, 3rem);
     font-weight: 400;
