@@ -188,6 +188,10 @@ h2 {
     max-width: 18ch;
 }
 
+#what {
+    background: var(--bone);
+}
+
 #what p {
     color: var(--ink-soft);
     max-width: 60ch;
