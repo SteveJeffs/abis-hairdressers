@@ -212,7 +212,7 @@ h2 {
     margin-top: 2.5rem;
 }
 
-.service {
+.service, .tri > div {
     padding: 1.5rem;
     margin-bottom: 0.75rem;
     background: var(--mineral);
