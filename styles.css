@@ -176,7 +176,7 @@ nav ul {
     cursor: pointer;
 }
 
-#what, #price, #how, #area {
+#what, #price, #how, #area, #visit {
     padding: 4rem 1.5rem;
 }
 
@@ -192,7 +192,7 @@ h2 {
     background: var(--bone);
 }
 
-#what p {
+#what p, #visit > p {
     color: var(--ink-soft);
     max-width: 60ch;
     margin-top: 1.25rem;
@@ -311,4 +311,47 @@ h2 {
     border: 1px solid rgba(20, 33, 30, 0.14);
     border-radius: 999px;
     font-size: 0.95rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 30rem;
+    margin-top: 2rem;
+}
+
+label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: -0.6rem;
+}
+
+input, select, textarea {
+    font-family: var(--f-ui);
+    font-size: 1rem;
+    color: var(--ink);
+    background: var(--bone);
+    border: 1px solid var(--ink-soft);
+    border-radius: 999px;
+    padding: 0.8rem 1.2rem;
+}
+
+textarea {
+    border-radius: 24px;
+    resize: vertical;
+}
+
+form button {
+    font-family: var(--f-ui);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--bone);
+    background: var(--wine);
+    border: 1.5px solid var(--wine);
+    border-radius: 999px;
+    padding: 1rem 2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    align-self:start;
 }
