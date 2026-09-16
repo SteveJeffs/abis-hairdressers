@@ -176,7 +176,7 @@ nav ul {
     cursor: pointer;
 }
 
-#what, #price, #how, #area, #visit {
+#what, #price, #how, #area, #visit, #thanks {
     padding: 4rem 1.5rem;
 }
 
@@ -354,4 +354,20 @@ form button {
     margin-top: 0.5rem;
     cursor: pointer;
     align-self:start;
+}
+
+.btn {
+    border-radius: 999px;
+    border: 1.5rem solid var(--wine);
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+#thanks {
+    background: var(--bone);
 }
