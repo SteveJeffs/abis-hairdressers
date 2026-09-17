@@ -47,18 +47,6 @@ h1 {
     margin-top: 1.5rem;
 }
 
-#hero a {
-    border-radius: 999px;
-    border: 1.5px solid var(--wine);
-    padding: 1rem 2rem;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 2rem;
-    margin-bottom: 0.75rem;
-}
-
 .visit {
     background: var(--wine);
     color: var(--bone);
@@ -202,7 +190,7 @@ h2 {
     margin-top: 3rem;
 }
 
-.trio h3 {
+h3 {
     font-family: var(--f-display);
     font-size: 1.35rem;
     font-weight: 400;
@@ -232,12 +220,6 @@ h2 {
 
 .service:nth-child(even) {
     border-radius: 12px 60px 12px 60px;
-}
-
-.service h3 {
-    font-family: var(--f-display);
-    font-size: 1.35rem;
-    font-weight: 400;
 }
 
 .descrip {
@@ -275,16 +257,13 @@ h2 {
     opacity: 0.75;
 }
 
-.step h3 {
-    font-family: var(--f-display);
-    font-size: 1.35rem;
-    font-weight: 400;
-    margin-top: 0.4rem;
-}
-
 .step p {
     color: var(--ink-soft);
     margin-top: 0.5rem;
+}
+
+.step h3 {
+    margin-top: 0.4rem;
 }
 
 #area { 
@@ -358,7 +337,7 @@ form button {
 
 .btn {
     border-radius: 999px;
-    border: 1.5rem solid var(--wine);
+    border: 1.5px solid var(--wine);
     padding: 1rem 2rem;
     text-decoration: none;
     display: block;
