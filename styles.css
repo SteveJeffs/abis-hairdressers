@@ -429,11 +429,27 @@ footer p {
 
     .hair {
         display: flex;
-        gap: 3rem;
+        gap: 2rem;
     }
 
     .hairtype {
         flex: 1;
         margin-bottom: 0;
+    }
+}
+
+@media (min-width: 900px) {
+    #hero {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .herotext {
+        flex: 1.2;
+    }
+    
+    #hero img {
+        flex: 1;
     }
 }
