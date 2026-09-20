@@ -396,7 +396,7 @@ footer p {
 }
 
 .hairtype img {
-    width: 100%;
+    width: 25%;
     aspect-ratio: 4/5;
     object-fit: cover;
     border-radius: 50% 50% 14px 14px / 34% 34% 14px 14px;
