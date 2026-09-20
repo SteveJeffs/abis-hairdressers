@@ -405,3 +405,35 @@ footer p {
     object-fit: cover;
     border-radius: 50% 50% 14px 14px / 34% 34% 14px 14px;
 }
+
+@media (min-width: 760px) {
+    .trio {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .trioblock {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .process {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .step {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .hair {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .hairtype {
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
