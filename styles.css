@@ -23,6 +23,10 @@ body {
     line-height: 1.6;
 }
 
+header {
+    border-bottom: 1px solid var(--wine);
+}
+
 img {
     display: block;
     max-width: 100%;
