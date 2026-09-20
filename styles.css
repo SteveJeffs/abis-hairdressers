@@ -164,7 +164,7 @@ nav ul {
     cursor: pointer;
 }
 
-#what, #price, #how, #area, #visit, #thanks {
+#what, #price, #how, #area, #visit, #thanks, #gallery {
     padding: 4rem 1.5rem;
 }
 
@@ -377,4 +377,27 @@ footer p {
     font-size: 0.8rem;
     opacity: 0.65;
     margin-bottom: 0;
+}
+
+#gallery {
+    background: var(--bone);
+}
+
+.hair {
+    margin-top: 2rem;
+}
+
+.hairtype {
+    margin-bottom: 2rem;
+}
+
+.hairtype h3 {
+    margin-bottom: 0.75rem;
+}
+
+.hairtype img {
+    width: 100%;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    border-radius: 50% 50% 14px / 34% 34% 14px 14px;
 }
