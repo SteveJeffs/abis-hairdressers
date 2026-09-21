@@ -56,6 +56,10 @@ h1 {
     color: var(--bone);
 }
 
+#visit {
+    background: var(--bone);
+}
+
 .wa {
     color: var(--wine);
 }
@@ -314,7 +318,7 @@ input, select, textarea {
     font-family: var(--f-ui);
     font-size: 1rem;
     color: var(--ink);
-    background: var(--bone);
+    background: var(--mineral);
     border: 1px solid var(--ink-soft);
     border-radius: 999px;
     padding: 0.8rem 1.2rem;
@@ -384,7 +388,7 @@ footer p {
 }
 
 #gallery {
-    background: var(--bone);
+    background: var(--mineral);
 }
 
 .hair {
@@ -456,4 +460,11 @@ footer p {
     #hero img {
         flex: 1;
     }
+}
+
+.swell {
+    display: block;
+    width: 100%;
+    height: clamp(38px, 5vw, 74px);
+    margin-bottom: -1px;
 }
