@@ -468,3 +468,7 @@ footer p {
     height: clamp(38px, 5vw, 74px);
     margin-bottom: -1px;
 }
+
+.onbone {
+    background: var(--bone);
+}
