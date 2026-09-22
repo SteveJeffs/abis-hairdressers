@@ -444,6 +444,13 @@ footer p {
         flex: 1;
         margin-bottom: 0;
     }
+
+    .service {
+        display: grid;
+        grid-template: 14rem 1fr auto;
+        align-items: baseline;
+        gap: 2rem;
+    }
 }
 
 @media (min-width: 900px) {
@@ -472,3 +479,4 @@ footer p {
 .onbone {
     background: var(--bone);
 }
+
