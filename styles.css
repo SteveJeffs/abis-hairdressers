@@ -151,6 +151,7 @@ nav ul {
     font-size: 0.9rem;
     color: var(--bone);
     text-decoration: underline;
+    margin-left: 1rem;
 }
 
 #panel.showing {
