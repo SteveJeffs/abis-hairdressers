@@ -140,6 +140,7 @@ nav ul {
 
 .panelfoot {
     margin-top: auto;
+    text-align: center;
     font-size: 0.9rem;
     color: rgba(247, 246, 242, 0.7);
 }
@@ -151,7 +152,6 @@ nav ul {
     font-size: 0.9rem;
     color: var(--bone);
     text-decoration: underline;
-    margin-left: 1rem;
 }
 
 #panel.showing {
