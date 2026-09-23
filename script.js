@@ -30,3 +30,18 @@ document.addEventListener("keydown", function (event) {
         menuBtn.setAttribute("aria-expanded", "false");
     }
 });
+
+const riser = document.querySelectorAll(".rise");
+
+const watcher = new IntersectionObserver(function (entries) {
+    entires.forEach(function (entry) {
+        if (entry.isIntersecting) {
+        entry.target.classList.add("in");
+        watcher.unobserve(entry.target);
+        }
+    });
+});
+
+ResizeObserverSize.forEach(function (element) {
+    watcher.observe(element);
+});

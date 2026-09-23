@@ -500,3 +500,13 @@ footer p {
     background: var(--bone);
 }
 
+.rise {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.rise.in {
+    opacity: 1;
+    transform: none;
+}
