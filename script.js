@@ -34,7 +34,7 @@ document.addEventListener("keydown", function (event) {
 const riser = document.querySelectorAll(".rise");
 
 const watcher = new IntersectionObserver(function (entries) {
-    entires.forEach(function (entry) {
+    entries.forEach(function (entry) {
         if (entry.isIntersecting) {
         entry.target.classList.add("in");
         watcher.unobserve(entry.target);
@@ -42,6 +42,6 @@ const watcher = new IntersectionObserver(function (entries) {
     });
 });
 
-ResizeObserverSize.forEach(function (element) {
+riser.forEach(function (element) {
     watcher.observe(element);
 });
