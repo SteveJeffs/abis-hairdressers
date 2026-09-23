@@ -44,6 +44,14 @@ h1 {
     background: var(--bone);
 }
 
+#hero img {
+    width: 100%;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    border-radius: 50% 50% 14px 14px / 34% 34% 14px 14px;
+    margin-top: 2rem;
+}
+
 #hero p {
     color: var(--ink-soft);
     font-size: clamp(1.05rem, 2vw, 1.25rem);
@@ -70,7 +78,7 @@ header {
     padding: 1rem 1.5rem;
     background: var(--bone);
     z-index: 10;
-    display:flex;
+    display: flex;
     align-items: center;
     gap: 1rem;
     justify-content: space-between;
@@ -131,7 +139,7 @@ nav ul {
     z-index: 20;
     padding: 6rem 2rem 2rem;
     background: rgba(122, 46, 62, 0.90);
-    backdrop-filter: blur(12px); 
+    backdrop-filter: blur(12px);
     border-radius: 120px 0 0 120px;
     transform: translateX(100%);
     transition: transform 0.4s ease;
@@ -178,7 +186,7 @@ nav ul {
 
 #closeBtn {
     position: absolute;
-    top:1.5rem;
+    top: 1.5rem;
     right: 2rem;
     font-family: var(--f-ui);
     font-size: 0.9rem;
@@ -191,7 +199,13 @@ nav ul {
     cursor: pointer;
 }
 
-#what, #price, #how, #area, #visit, #thanks, #gallery {
+#what,
+#price,
+#how,
+#area,
+#visit,
+#thanks,
+#gallery {
     padding: 4rem 1.5rem;
 }
 
@@ -207,7 +221,8 @@ h2 {
     background: var(--mineral);
 }
 
-#what p, #visit > p {
+#what p,
+#visit>p {
     color: var(--ink-soft);
     max-width: 60ch;
     margin-top: 1.25rem;
@@ -240,7 +255,8 @@ h3 {
     background: var(--bone);
 }
 
-.service, .trioblock {
+.service,
+.trioblock {
     padding: 1.5rem;
     margin-bottom: 0.75rem;
     border-radius: 60px 12px 60px 12px;
@@ -261,7 +277,7 @@ h3 {
     color: var(--wine);
 }
 
-#price > p {
+#price>p {
     margin-top: 1.5rem;
     font-size: 0.95rem;
     color: var(--ink-soft);
@@ -294,7 +310,7 @@ h3 {
     margin-top: 0.4rem;
 }
 
-#area { 
+#area {
     background: var(--bone);
 }
 
@@ -334,7 +350,9 @@ label {
     margin-bottom: -0.6rem;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     font-family: var(--f-ui);
     font-size: 1rem;
     color: var(--ink);
@@ -360,7 +378,7 @@ form button {
     padding: 1rem 2rem;
     margin-top: 0.5rem;
     cursor: pointer;
-    align-self:start;
+    align-self: start;
 }
 
 .btn {
@@ -483,7 +501,7 @@ footer p {
     .herotext {
         flex: 1.2;
     }
-    
+
     #hero img {
         flex: 1;
     }
@@ -509,4 +527,16 @@ footer p {
 .rise.in {
     opacity: 1;
     transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .rise {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    #panel {
+        transition: none;
+    }
 }
