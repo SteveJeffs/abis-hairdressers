@@ -12,22 +12,17 @@ menuBtn.addEventListener("click", function () {
     menuBtn.setAttribute("aria-expanded", String(isOpen));
 });
 
-closeBtn.addEventListener("click", function () {
-    panel.classList.remove("showing");
-    menuBtn.setAttribute("aria-expanded", "false");
-});
+closeBtn.addEventListener("click", closePanel);
 
 panel.addEventListener("click", function (event) {
     if (event.target.tagName === "A") {
-        panel.classList.remove("showing");
-        menuBtn.setAttribute("aria-expanded", "false");
+        closePanel();
     }
 });
 
 document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
-        panel.classList.remove("showing");
-        menuBtn.setAttribute("aria-expanded", "false");
+        closePanel();
     }
 });
 
@@ -36,8 +31,8 @@ const riser = document.querySelectorAll(".rise");
 const watcher = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
         if (entry.isIntersecting) {
-        entry.target.classList.add("in");
-        watcher.unobserve(entry.target);
+            entry.target.classList.add("in");
+            watcher.unobserve(entry.target);
         }
     });
 });
