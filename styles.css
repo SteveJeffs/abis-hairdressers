@@ -40,8 +40,13 @@ h1 {
 }
 
 #hero {
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem;
     background: var(--bone);
+}
+
+#hero span {
+    font-style: italic;
+    font-weight: 300;
 }
 
 #hero img {
